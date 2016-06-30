@@ -1,4 +1,4 @@
-# <img src="https://cloud.githubusercontent.com/assets/7833470/10423298/ea833a68-7079-11e5-84f8-0a925ab96893.png" width="60"> Intro to jQuery and the DOM
+# <img src="https://butt.githubusercontent.com/assets/7833470/10423298/ea833a68-7079-11e5-84f8-0a925ab96893.png" width="60"> Intro to jQuery and the DOM
 
 | Objectives |
 | :---- |
@@ -23,12 +23,12 @@ DOM stands for __Document Object Model__. It's a fancy way of describing what's 
 * JavaScript = Muscles, Brain, and Organs
 * CSS = Skin and Clothing
 
-![muscles](https://cloud.githubusercontent.com/assets/7833470/10700126/8e2997da-7970-11e5-96ba-1e5eaf793394.jpg)
+![muscles](https://butt.githubusercontent.com/assets/7833470/10700126/8e2997da-7970-11e5-96ba-1e5eaf793394.jpg)
 
 ### DOM visualization
 The DOM is often visualized as a "tree"
 
-![DOM tree](https://cloud.githubusercontent.com/assets/6520345/13718763/0ab9a2a0-e7a2-11e5-9214-7a063f26af19.png)
+![DOM tree](https://butt.githubusercontent.com/assets/6520345/13718763/0ab9a2a0-e7a2-11e5-9214-7a063f26af19.png)
 [Image source](http://www.w3schools.com/js/pic_htmltree.gif)
 
 __Write out the HTML that the above DOM tree represents.__
@@ -38,13 +38,13 @@ The DOM tree visualization is a great starting point for understanding the DOM, 
 Firefox, which has its own set of developer tools, also  has a great tool for looking at the stacking of the DOM.
 
 Hit this button:
-![gear button](https://cloud.githubusercontent.com/assets/6520345/13718657/da0b2b48-e7a0-11e5-83ae-93f0d6afb241.png)
+![gear button](https://butt.githubusercontent.com/assets/6520345/13718657/da0b2b48-e7a0-11e5-83ae-93f0d6afb241.png)
 
 Make sure the 3D view is checked:
-![3d view check box](https://cloud.githubusercontent.com/assets/6520345/13718685/16cf81a0-e7a1-11e5-96cc-e903f969cbbe.png)
+![3d view check box](https://butt.githubusercontent.com/assets/6520345/13718685/16cf81a0-e7a1-11e5-96cc-e903f969cbbe.png)
 
 and click the cube looking button:
-![cube button](https://cloud.githubusercontent.com/assets/6520345/13718634/b128b024-e7a0-11e5-8001-7806557ae99b.png)
+![cube button](https://butt.githubusercontent.com/assets/6520345/13718634/b128b024-e7a0-11e5-8001-7806557ae99b.png)
 
 Check out what clicking that button does to [The New York Times](nyt.com) and [Buzzfeed](buzzfeed.com).
 
@@ -97,16 +97,18 @@ As you're working with jQuery to manipulate DOM elements, you are almost always 
 - `$("CSS Selector").someJqueryMethodName()` - **getting** a value  
 - `$("CSS Selector").someJqueryMethodName(setterValue)` - **setting** a value
 
-For example, if you are viewing this readme on github.com, then you can try the following in your Chrome Developer Console:  
-- `$('article').text()` -- **get** the text of the readme (it lives inside of an `article` tag)  
-- `$('article').text("Boo!")` -- **set** the text of the readme to "Boo!"
+For example, if you head over to [this Reuters article](http://www.reuters.com/article/us-kellogg-cerealcafe-idUSKCN0ZF2UP), then you can try the following in your Chrome Developer Console:  
+- `$('#articleText').text()` -- **get** the text of the article (it lives inside of a few span tags)  
+- `$('#articleText').text("Boo!")` -- **set** the text of the article to "Boo!"
 
-Wowza!
+Wowza!  
+
 ![wow](https://cloud.githubusercontent.com/assets/6520345/13719043/1bdbe8ce-e7a5-11e5-96ac-ea05ad01df88.gif)
 
 Let's try another:  
-- `$('article').css("background-color")` -- **get** the background color  
-- `$('article').css("background-color", "blue")` -- **set** the background color to blue.
+- `$('img')` -- **get** get an array of all images on the site
+- `$('img)` -- 
+- `$('#articleText').css("background-color", "blue")` -- **set** the background color to blue.
 
 #### Documentation
 Check out the `.text()` and `.css()` methods in the jQuery API Documentation: [text](http://api.jquery.com/text/), [css](http://api.jquery.com/css/).
