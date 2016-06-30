@@ -107,8 +107,9 @@ Wowza!
 
 Let's try another:  
 - `$('img')` -- **get** get an array of all images on the site
-- `$('img)` -- 
-- `$('#articleText').css("background-color", "blue")` -- **set** the background color to blue.
+- `$('img)[1]` -- **get** the actual article image
+- `$('img')[1].src` -- **get** the image url
+- `$('img')[1].src` = 'http://i.giphy.com/fylZTgiKh6clq.gif' -- **set** the image to one of our own! mwahahahahha!
 
 #### Documentation
 Check out the `.text()` and `.css()` methods in the jQuery API Documentation: [text](http://api.jquery.com/text/), [css](http://api.jquery.com/css/).
